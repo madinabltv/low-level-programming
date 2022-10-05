@@ -1,6 +1,6 @@
 assume CS:code,DS:data, SS:STK
 
-
+;вывод результата
 data segment
 msg db ' $'
 counter db 0
