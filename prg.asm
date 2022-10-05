@@ -8,6 +8,7 @@ d db 4
 res db ?
 data ends
 
+;(b/c + a)*d-4
 code segment
 start:
 mov AX, data
