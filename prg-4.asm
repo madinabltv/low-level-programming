@@ -8,6 +8,7 @@ d db 5
 res db ?
 data ends
 
+;(a*c+b*d)+2
 code segment
 start:
 mov AX, data
