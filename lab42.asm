@@ -1,6 +1,5 @@
-
 assume cs: code, ds: data
-; init data segment
+
 initds macro
     mov ax, data
     mov ds, ax
